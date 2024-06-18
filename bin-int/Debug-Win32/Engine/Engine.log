@@ -1,0 +1,9 @@
+﻿  Application.cpp
+D:\Dev\Game-Engine\Engine\src\Engine\Application.cpp(4,15): warning C4273: 'Engine::Application::Application': inconsistent dll linkage
+D:\Dev\Game-Engine\Engine\src\Engine\Application.h(10,3): message : see previous definition of '{ctor}'
+D:\Dev\Game-Engine\Engine\src\Engine\Application.cpp(8,16): warning C4273: 'Engine::Application::~Application': inconsistent dll linkage
+D:\Dev\Game-Engine\Engine\src\Engine\Application.h(11,4): message : see previous definition of '{dtor}'
+D:\Dev\Game-Engine\Engine\src\Engine\Application.cpp(12,20): warning C4273: 'Engine::Application::Run': inconsistent dll linkage
+D:\Dev\Game-Engine\Engine\src\Engine\Application.h(13,8): message : see previous definition of 'Run'
+     Creating library D:\Dev\Game-Engine\bin\Debug-Win32\Engine\Engine.lib and object D:\Dev\Game-Engine\bin\Debug-Win32\Engine\Engine.exp
+  Engine.vcxproj -> D:\Dev\Game-Engine\bin\Debug-Win32\Engine\Engine.dll
