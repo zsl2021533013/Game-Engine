@@ -6,7 +6,10 @@ extern Engine::Application* Engine::CreateApplication();
 
 int main(int args, char** argv) {
 
-	printf("Hello World");
+	Engine::Log::Init();
+
+	Engine::Log::GetCoreLogger()->warn("Initilize Log");
+	Engine::Log::GetClientLogger()->info("Initilize Log");
 
 	auto app = Engine::CreateApplication();
 

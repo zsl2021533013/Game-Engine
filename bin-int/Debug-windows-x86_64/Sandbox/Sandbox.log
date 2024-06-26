@@ -1,0 +1,80 @@
+﻿  SandboxApp.cpp
+D:\Dev\Game-Engine\Engine\src\Engine\Log.h(18,42): warning C4251: 'Engine::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Engine::Log'
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\details\registry.h(33,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+D:\Dev\Game-Engine\Engine\src\Engine\Log.h(19,42): warning C4251: 'Engine::Log::s_CilentLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Engine::Log'
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\details\registry.h(33,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(494,23): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5223,12): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::_Insert_string<char,std::char_traits<char>,unsigned __int64>(std::basic_ostream<char,std::char_traits<char>> &,const _Elem *const ,const _SizeT)' being compiled
+          with
+          [
+              _Elem=char,
+              _SizeT=unsigned __int64
+          ]
+D:\Dev\Game-Engine\Engine\src\Engine\Events\Event.h(83,13): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::allocator<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(494,1): error C2065: 'iostate': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(494,31): error C2146: syntax error: missing ';' before identifier '_State'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(494,31): error C2065: '_State': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(494,49): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(494,1): error C2065: 'goodbit': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(497): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(500,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(503,29): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(503,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(503,36): error C2146: syntax error: missing ';' before identifier '_Ok'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(503,36): error C3861: '_Ok': identifier not found
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(505,10): error C2065: '_Ok': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(506,9): error C2065: '_State': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(506,28): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(506,1): error C2065: 'badbit': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(509): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(509,39): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(509): error C2065: 'adjustfield': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(509,64): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(509,1): error C2065: 'left': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(511): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(511,30): error C2660: 'std::_Narrow_char_traits<char,int>::eq_int_type': function does not take 1 arguments
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(465,38): message : see declaration of 'std::_Narrow_char_traits<char,int>::eq_int_type'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(511,30): message : while trying to match the argument list '(int)'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(512,21): error C2065: '_State': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(512,40): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(512,1): error C2065: 'badbit': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(518,13): error C2065: '_State': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(518,32): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(519,1): error C2065: 'goodbit': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(519,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(520,13): error C2065: '_State': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(520,32): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(520,1): error C2065: 'badbit': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(523): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(523,30): error C2660: 'std::_Narrow_char_traits<char,int>::eq_int_type': function does not take 1 arguments
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(465,38): message : see declaration of 'std::_Narrow_char_traits<char,int>::eq_int_type'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(523,30): message : while trying to match the argument list '(int)'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(524,21): error C2065: '_State': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(524,40): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(524,1): error C2065: 'badbit': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(530,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(531,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(531,9): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(531,1): error C2065: 'badbit': undeclared identifier
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(534,1): error C2027: use of undefined type 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(238,35): message : see declaration of 'std::basic_ostream<char,std::char_traits<char>>'
+D:\Dev\Vistual Studio\Community\VC\Tools\MSVC\14.36.32532\include\xstring(534,20): error C2065: '_State': undeclared identifier

@@ -1,0 +1,52 @@
+﻿  Application.cpp
+D:\Dev\Game-Engine\Engine\src\Engine\Log.h(18,42): warning C4251: 'Engine::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Engine::Log'
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\details\registry.h(33,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+D:\Dev\Game-Engine\Engine\src\Engine\Log.h(19,42): warning C4251: 'Engine::Log::s_CilentLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Engine::Log'
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\details\registry.h(33,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(1600,63): error C2079: '_' uses undefined struct 'fmt::v10::detail::type_is_unformattable_for<T,char>'
+          with
+          [
+              T=Engine::WindowResizeEvent
+          ]
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(1842,23): message : see reference to function template instantiation 'fmt::v10::detail::value<Context> fmt::v10::detail::make_arg<true,Context,const T,0>(T &)' being compiled
+          with
+          [
+              Context=fmt::v10::format_context,
+              T=Engine::WindowResizeEvent
+          ]
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(1860,11): message : see reference to function template instantiation 'fmt::v10::format_arg_store<fmt::v10::format_context,Engine::WindowResizeEvent>::format_arg_store<const T>(const T &)' being compiled
+          with
+          [
+              T=Engine::WindowResizeEvent
+          ]
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\logger.h(328,59): message : see reference to function template instantiation 'fmt::v10::format_arg_store<fmt::v10::format_context,Engine::WindowResizeEvent> fmt::v10::make_format_args<fmt::v10::format_context,const T>(const T &)' being compiled
+          with
+          [
+              T=Engine::WindowResizeEvent
+          ]
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\logger.h(80,9): message : see reference to function template instantiation 'void spdlog::logger::log_<const T&>(spdlog::source_loc,spdlog::level::level_enum,spdlog::string_view_t,const T &)' being compiled
+          with
+          [
+              T=Engine::WindowResizeEvent
+          ]
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\logger.h(98,9): message : see reference to function template instantiation 'void spdlog::logger::log<const T&>(spdlog::source_loc,spdlog::level::level_enum,fmt::v10::basic_format_string<char,const T &>,const T &)' being compiled
+          with
+          [
+              T=Engine::WindowResizeEvent
+          ]
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\logger.h(90,9): message : see reference to function template instantiation 'void spdlog::logger::log<T,0>(spdlog::source_loc,spdlog::level::level_enum,const T &)' being compiled
+          with
+          [
+              T=Engine::WindowResizeEvent
+          ]
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\logger.h(233,9): message : see reference to function template instantiation 'void spdlog::logger::log<T>(spdlog::level::level_enum,const T &)' being compiled
+          with
+          [
+              T=Engine::WindowResizeEvent
+          ]
+D:\Dev\Game-Engine\Engine\src\Engine\Application.cpp(18,3): message : see reference to function template instantiation 'void spdlog::logger::trace<Engine::WindowResizeEvent>(const T &)' being compiled
+          with
+          [
+              T=Engine::WindowResizeEvent
+          ]
+D:\Dev\Game-Engine\Engine\vendor\spdlog\include\spdlog\fmt\bundled\core.h(1604,7): error C2338: static_assert failed: 'Cannot format an argument. To make type T formattable provide a formatter<T> specialization: https://fmt.dev/latest/api.html#udt'
