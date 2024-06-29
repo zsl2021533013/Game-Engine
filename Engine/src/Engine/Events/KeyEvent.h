@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Engine {
 
 	class ENGINE_API KeyEvent : public Event
@@ -35,7 +33,6 @@ namespace Engine {
 		}
 
 		EVENT_CLASS_TYPE(KeyPressed)
-
 	private:
 		int m_RepeatCount;
 	};

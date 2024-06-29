@@ -1,25 +1,66 @@
+#include "pch.h"
 #include "Application.h"
 
-#include "Events/ApplicationEvent.h"
-#include "Log.h"
+#include "Engine/Log.h"
+
+#include <GLFW/glfw3.h>
 
 namespace Engine {
-	Application::Application() {
 
+#define BIND_EVENT_FN(x) std::bind(&Application::x, this, std::placeholders::_1)
+
+	Application::Application() 
+	{
+		m_Window = std::unique_ptr<Window>(Window::Create());
+		m_Window->SetEventCallback(BIND_EVENT_FN(OnEvent));
 	}
 
-	Application::~Application() {
-
+	Application::~Application()
+	{
 	}
 
-	void Application::Run() {
+	void Application::PushLayer(Layer* layer)
+	{
+		m_LayerStack.PushLayer(layer);
+	}
 
-		WindowResizeEvent e(1280, 720);
-		Engine::Log::GetClientLogger()->trace(e);
+	void Application::PushOverlay(Layer* layer)
+	{
+		m_LayerStack.PushOverlay(layer);
+	}
 
-		while (true)
+	void Application::OnEvent(Event& e)
+	{
+		EventDispatcher dispatcher(e);
+		dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FN(OnWindowClose));
+
+		for (auto it = m_LayerStack.end(); it != m_LayerStack.begin(); )
 		{
-
+			(*--it)->OnEvent(e);
+			if (e.Handled)
+			{
+				break;
+			}
 		}
 	}
+
+	void Application::Run()
+	{
+		while (m_Running)
+		{
+			for (Layer* layer : m_LayerStack)
+			{
+				layer->OnUpdate();
+			}
+
+			m_Window->OnUpdate();
+		}
+	}
+
+	bool Application::OnWindowClose(WindowCloseEvent& e)
+	{
+		m_Running = false;
+		return true;
+	}
+
 }

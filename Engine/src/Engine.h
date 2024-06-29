@@ -1,12 +1,11 @@
 #pragma once
 
-// For use for application
+// For use by Engine applications
 
 #include "Engine/Application.h"
+#include "Engine/Layer.h"
 #include "Engine/Log.h"
 
-// ------------ Entry Point -------------
-
+// ---Entry Point---------------------
 #include "Engine/EntryPoint.h"
-
-// --------------------------------------
+// -----------------------------------

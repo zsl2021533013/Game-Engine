@@ -1,18 +1,41 @@
-#include "Engine.h"
+#include <Engine.h>
 
-class Sandbox : public Engine::Application {
-
+class ExampleLayer : public Engine::Layer
+{
 public:
-	Sandbox() {
-
+	ExampleLayer()
+		: Layer("Example")
+	{
 	}
 
-	~Sandbox() {
+	void OnUpdate() override
+	{
+		INFO("ExampleLayer::Update");
+	}
+
+	void OnEvent(Engine::Event& event) override
+	{
+		TRACE("{0}", event);
+	}
+
+};
+
+class Sandbox : public Engine::Application
+{
+public:
+	Sandbox()
+	{
+		PushLayer(new ExampleLayer());
+	}
+
+	~Sandbox()
+	{
 
 	}
 
 };
 
-Engine::Application* Engine::CreateApplication() {
+Engine::Application* Engine::CreateApplication()
+{
 	return new Sandbox();
 }

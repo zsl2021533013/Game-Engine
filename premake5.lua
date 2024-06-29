@@ -10,6 +10,12 @@ workspace "Game-Engine"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+-- Include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "Engine/vendor/GLFW/include"
+
+include "Engine/vendor/GLFW"
+
 project "Engine"
 	location "Engine"
 	kind "SharedLib"
@@ -17,6 +23,9 @@ project "Engine"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+
+	pchheader "pch.h"
+	pchsource "Engine/src/pch.cpp"
 
 	files
 	{
@@ -27,7 +36,14 @@ project "Engine"
 	includedirs
 	{
 		"%{prj.name}/src",
-		"%{prj.name}/vendor/spdlog/include"
+		"%{prj.name}/vendor/spdlog/include",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links 
+	{ 
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"
@@ -37,25 +53,29 @@ project "Engine"
 
 		defines
 		{
-			"PLATFORM_WINDOW",
+			"PLATFORM_WINDOWS",
 			"BUILD_DLL"
 		}
 
 		postbuildcommands
 		{
-			("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/Sandbox")
+			"{MKDIR} ../bin/" .. outputdir .. "/Sandbox",
+			"{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/Sandbox"
 		}
-	
+
 	filter "configurations:Debug"
-		defines "ENGINE_DEBUG"
+		defines "DEBUG"
+		buildoptions "/MDd"
 		symbols "On"
 
 	filter "configurations:Release"
-		defines "ENGINE_RELEASE"
+		defines "RELEASE"
+		buildoptions "/MD"
 		optimize "On"
 
 	filter "configurations:Dist"
-		defines "ENGINE_DIST"
+		defines "DIST"
+		buildoptions "/MD"
 		optimize "On"
 
 project "Sandbox"
@@ -74,8 +94,8 @@ project "Sandbox"
 
 	includedirs
 	{
-		"Engine/src",
-		"Engine/vendor/spdlog/include"
+		"Engine/vendor/spdlog/include",
+		"Engine/src"
 	}
 
 	links
@@ -90,17 +110,20 @@ project "Sandbox"
 
 		defines
 		{
-			"PLATFORM_WINDOW"
+			"PLATFORM_WINDOWS"
 		}
-	
+
 	filter "configurations:Debug"
-		defines "ENGINE_DEBUG"
+		defines "DEBUG"
+		buildoptions "/MDd"
 		symbols "On"
 
 	filter "configurations:Release"
-		defines "ENGINE_RELEASE"
+		defines "RELEASE"
+		buildoptions "/MD"
 		optimize "On"
 
 	filter "configurations:Dist"
-		defines "ENGINE_DIST"
+		defines "DIST"
+		buildoptions "/MD"
 		optimize "On"

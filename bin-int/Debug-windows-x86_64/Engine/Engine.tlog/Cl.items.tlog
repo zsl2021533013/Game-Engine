@@ -1,2 +1,6 @@
 D:\Dev\Game-Engine\Engine\src\Engine\Application.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\Application.obj
+D:\Dev\Game-Engine\Engine\src\Engine\Layer.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\Layer.obj
+D:\Dev\Game-Engine\Engine\src\Engine\LayerStack.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\LayerStack.obj
 D:\Dev\Game-Engine\Engine\src\Engine\Log.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\Log.obj
+D:\Dev\Game-Engine\Engine\src\Platform\Windows\WindowsWindow.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\WindowsWindow.obj
+D:\Dev\Game-Engine\Engine\src\pch.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\pch.obj
