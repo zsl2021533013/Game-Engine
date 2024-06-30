@@ -1,3 +1,0 @@
-[submodule "Engine/vender/imgui"]
-	path = Engine/vender/imgui
-	url = https://github.com/TheCherno/imgui.git

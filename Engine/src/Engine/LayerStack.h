@@ -7,7 +7,7 @@
 
 namespace Engine {
 
-	class ENGINE_API LayerStack
+	class HAZEL_API LayerStack
 	{
 	public:
 		LayerStack();

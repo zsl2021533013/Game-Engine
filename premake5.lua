@@ -28,8 +28,8 @@ project "Engine"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
-	pchheader "pch.h"
-	pchsource "Engine/src/pch.cpp"
+	pchheader "gepch.h"
+	pchsource "Engine/src/gepch.cpp"
 
 	files
 	{
@@ -61,8 +61,8 @@ project "Engine"
 
 		defines
 		{
-			"PLATFORM_WINDOWS",
-			"BUILD_DLL",
+			"GE_PLATFORM_WINDOWS",
+			"GE_BUILD_DLL",
 			"GLFW_INCLUDE_NONE"
 		}
 
@@ -73,17 +73,17 @@ project "Engine"
 		}
 
 	filter "configurations:Debug"
-		defines "DEBUG"
+		defines "GE_DEBUG"
 		buildoptions "/MDd"
 		symbols "On"
 
 	filter "configurations:Release"
-		defines "RELEASE"
+		defines "GE_RELEASE"
 		buildoptions "/MD"
 		optimize "On"
 
 	filter "configurations:Dist"
-		defines "DIST"
+		defines "GE_DIST"
 		buildoptions "/MD"
 		optimize "On"
 
@@ -119,20 +119,20 @@ project "Sandbox"
 
 		defines
 		{
-			"PLATFORM_WINDOWS"
+			"GE_PLATFORM_WINDOWS"
 		}
 
 	filter "configurations:Debug"
-		defines "DEBUG"
+		defines "GE_DEBUG"
 		buildoptions "/MDd"
 		symbols "On"
 
 	filter "configurations:Release"
-		defines "RELEASE"
+		defines "GE_RELEASE"
 		buildoptions "/MD"
 		optimize "On"
 
 	filter "configurations:Dist"
-		defines "DIST"
+		defines "GE_DIST"
 		buildoptions "/MD"
 		optimize "On"

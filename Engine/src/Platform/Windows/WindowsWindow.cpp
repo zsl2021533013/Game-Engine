@@ -1,11 +1,11 @@
-#include "pch.h"
+#include "gepch.h"
 #include "WindowsWindow.h"
 
 #include "Engine/Events/ApplicationEvent.h"
 #include "Engine/Events/MouseEvent.h"
 #include "Engine/Events/KeyEvent.h"
 
-#include "glad/glad.h"
+#include <glad/glad.h>
 
 namespace Engine {
 	
@@ -13,7 +13,7 @@ namespace Engine {
 
 	static void GLFWErrorCallback(int error, const char* description)
 	{
-		CORE_ERROR("GLFW Error ({0}): {1}", error, description);
+		GE_CORE_ERROR("GLFW Error ({0}): {1}", error, description);
 	}
 
 	Window* Window::Create(const WindowProps& props)
@@ -37,23 +37,21 @@ namespace Engine {
 		m_Data.Width = props.Width;
 		m_Data.Height = props.Height;
 
-		CORE_INFO("Creating window {0} ({1}, {2})", props.Title, props.Width, props.Height);
+		GE_CORE_INFO("Creating window {0} ({1}, {2})", props.Title, props.Width, props.Height);
 
 		if (!s_GLFWInitialized)
 		{
 			// TODO: glfwTerminate on system shutdown
 			int success = glfwInit();
-			CORE_ASSERT(success, "Could not intialize GLFW!");
+			GE_CORE_ASSERT(success, "Could not intialize GLFW!");
 			glfwSetErrorCallback(GLFWErrorCallback);
 			s_GLFWInitialized = true;
 		}
 
 		m_Window = glfwCreateWindow((int)props.Width, (int)props.Height, m_Data.Title.c_str(), nullptr, nullptr);
 		glfwMakeContextCurrent(m_Window);
-
 		int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-		CORE_ASSERT(status, "Failed to initialize Glad!");
-
+		GE_CORE_ASSERT(status, "Failed to initialize Glad!");
 		glfwSetWindowUserPointer(m_Window, &m_Data);
 		SetVSync(true);
 
@@ -100,6 +98,14 @@ namespace Engine {
 					break;
 				}
 			}
+		});
+
+		glfwSetCharCallback(m_Window, [](GLFWwindow* window, unsigned int keycode)
+		{
+			WindowData& data = *(WindowData*)glfwGetWindowUserPointer(window);
+
+			KeyTypedEvent event(keycode);
+			data.EventCallback(event);
 		});
 
 		glfwSetMouseButtonCallback(m_Window, [](GLFWwindow* window, int button, int action, int mods)

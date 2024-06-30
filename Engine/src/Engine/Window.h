@@ -1,6 +1,6 @@
 #pragma once
 
-#include "pch.h"
+#include "gepch.h"
 
 #include "Engine/Core.h"
 #include "Engine/Events/Event.h"
@@ -22,7 +22,7 @@ namespace Engine {
 	};
 
 	// Interface representing a desktop system based Window
-	class ENGINE_API Window
+	class HAZEL_API Window
 	{
 	public:
 		using EventCallbackFn = std::function<void(Event&)>;

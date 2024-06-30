@@ -1,7 +1,5 @@
 #include <Engine.h>
 
-#include "Engine/ImGui/ImGuiLayer.h"
-
 class ExampleLayer : public Engine::Layer
 {
 public:
@@ -12,12 +10,12 @@ public:
 
 	void OnUpdate() override
 	{
-		INFO("ExampleLayer::Update");
+		GE_INFO("ExampleLayer::Update");
 	}
 
 	void OnEvent(Engine::Event& event) override
 	{
-		TRACE("{0}", event);
+		GE_TRACE("{0}", event);
 	}
 
 };

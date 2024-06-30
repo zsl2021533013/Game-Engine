@@ -7,9 +7,9 @@
 #include "Engine/Events/Event.h"
 #include "Engine/Events/ApplicationEvent.h"
 
-namespace Engine
-{
-	class ENGINE_API Application
+namespace Engine {
+
+	class HAZEL_API Application
 	{
 	public:
 		Application();
@@ -18,7 +18,7 @@ namespace Engine
 		void Run();
 
 		void OnEvent(Event& e);
-		
+
 		void PushLayer(Layer* layer);
 		void PushOverlay(Layer* layer);
 

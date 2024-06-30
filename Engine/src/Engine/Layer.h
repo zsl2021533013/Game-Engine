@@ -5,7 +5,7 @@
 
 namespace Engine {
 
-	class ENGINE_API Layer
+	class HAZEL_API Layer
 	{
 	public:
 		Layer(const std::string& name = "Layer");
