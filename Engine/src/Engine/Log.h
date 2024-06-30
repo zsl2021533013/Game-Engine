@@ -6,7 +6,7 @@
 
 namespace Engine {
 
-	class HAZEL_API Log
+	class ENGINE_API Log
 	{
 	public:
 		static void Init();

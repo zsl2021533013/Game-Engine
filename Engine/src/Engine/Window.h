@@ -22,7 +22,7 @@ namespace Engine {
 	};
 
 	// Interface representing a desktop system based Window
-	class HAZEL_API Window
+	class ENGINE_API Window
 	{
 	public:
 		using EventCallbackFn = std::function<void(Event&)>;
@@ -39,6 +39,8 @@ namespace Engine {
 		virtual void SetVSync(bool enabled) = 0;
 		virtual bool IsVSync() const = 0;
 
+		virtual void* GetNativeWindow() const = 0;
+		
 		static Window* Create(const WindowProps& props = WindowProps());
 	};
 

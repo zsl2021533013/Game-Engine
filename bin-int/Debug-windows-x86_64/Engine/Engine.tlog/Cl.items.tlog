@@ -4,5 +4,6 @@ D:\Dev\Game-Engine\Engine\src\Engine\Layer.cpp;D:\Dev\Game-Engine\bin-int\Debug-
 D:\Dev\Game-Engine\Engine\src\Engine\LayerStack.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\LayerStack.obj
 D:\Dev\Game-Engine\Engine\src\Engine\Log.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\Log.obj
 D:\Dev\Game-Engine\Engine\src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\ImGuiOpenGLRenderer.obj
+D:\Dev\Game-Engine\Engine\src\Platform\Windows\WindowsInput.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\WindowsInput.obj
 D:\Dev\Game-Engine\Engine\src\Platform\Windows\WindowsWindow.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\WindowsWindow.obj
-D:\Dev\Game-Engine\Engine\src\pch.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\pch.obj
+D:\Dev\Game-Engine\Engine\src\gepch.cpp;D:\Dev\Game-Engine\bin-int\Debug-windows-x86_64\Engine\gepch.obj

@@ -171,5 +171,4 @@ namespace Engine {
 	{
 		return m_Data.VSync;
 	}
-
 }

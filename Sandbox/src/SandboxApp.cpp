@@ -10,14 +10,11 @@ public:
 
 	void OnUpdate() override
 	{
-		GE_INFO("ExampleLayer::Update");
+		if (Engine::Input::IsKeyPressed(GE_KEY_TAB))
+		{
+			GE_CORE_INFO("Tab key is pressed (poll)!");
+		}
 	}
-
-	void OnEvent(Engine::Event& event) override
-	{
-		GE_TRACE("{0}", event);
-	}
-
 };
 
 class Sandbox : public Engine::Application

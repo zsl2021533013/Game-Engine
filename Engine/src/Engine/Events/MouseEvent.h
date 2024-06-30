@@ -4,7 +4,7 @@
 
 namespace Engine {
 
-	class HAZEL_API MouseMovedEvent : public Event
+	class ENGINE_API MouseMovedEvent : public Event
 	{
 	public:
 		MouseMovedEvent(float x, float y)
@@ -26,7 +26,7 @@ namespace Engine {
 		float m_MouseX, m_MouseY;
 	};
 
-	class HAZEL_API MouseScrolledEvent : public Event
+	class ENGINE_API MouseScrolledEvent : public Event
 	{
 	public:
 		MouseScrolledEvent(float xOffset, float yOffset)
@@ -48,7 +48,7 @@ namespace Engine {
 		float m_XOffset, m_YOffset;
 	};
 
-	class HAZEL_API MouseButtonEvent : public Event
+	class ENGINE_API MouseButtonEvent : public Event
 	{
 	public:
 		inline int GetMouseButton() const { return m_Button; }
@@ -61,7 +61,7 @@ namespace Engine {
 		int m_Button;
 	};
 
-	class HAZEL_API MouseButtonPressedEvent : public MouseButtonEvent
+	class ENGINE_API MouseButtonPressedEvent : public MouseButtonEvent
 	{
 	public:
 		MouseButtonPressedEvent(int button)
@@ -77,7 +77,7 @@ namespace Engine {
 		EVENT_CLASS_TYPE(MouseButtonPressed)
 	};
 
-	class HAZEL_API MouseButtonReleasedEvent : public MouseButtonEvent
+	class ENGINE_API MouseButtonReleasedEvent : public MouseButtonEvent
 	{
 	public:
 		MouseButtonReleasedEvent(int button)

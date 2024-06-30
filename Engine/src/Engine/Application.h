@@ -9,7 +9,7 @@
 
 namespace Engine {
 
-	class HAZEL_API Application
+	class ENGINE_API Application
 	{
 	public:
 		Application();

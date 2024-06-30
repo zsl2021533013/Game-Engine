@@ -4,7 +4,7 @@
 
 namespace Engine {
 
-	class HAZEL_API KeyEvent : public Event
+	class ENGINE_API KeyEvent : public Event
 	{
 	public:
 		inline int GetKeyCode() const { return m_KeyCode; }
@@ -17,7 +17,7 @@ namespace Engine {
 		int m_KeyCode;
 	};
 
-	class HAZEL_API KeyPressedEvent : public KeyEvent
+	class ENGINE_API KeyPressedEvent : public KeyEvent
 	{
 	public:
 		KeyPressedEvent(int keycode, int repeatCount)
@@ -37,7 +37,7 @@ namespace Engine {
 		int m_RepeatCount;
 	};
 
-	class HAZEL_API KeyReleasedEvent : public KeyEvent
+	class ENGINE_API KeyReleasedEvent : public KeyEvent
 	{
 	public:
 		KeyReleasedEvent(int keycode)
@@ -53,7 +53,7 @@ namespace Engine {
 		EVENT_CLASS_TYPE(KeyReleased)
 	};
 
-	class HAZEL_API KeyTypedEvent : public KeyEvent
+	class ENGINE_API KeyTypedEvent : public KeyEvent
 	{
 	public:
 		KeyTypedEvent(int keycode)

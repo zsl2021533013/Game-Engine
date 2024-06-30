@@ -2,9 +2,9 @@
 
 #ifdef GE_PLATFORM_WINDOWS
 	#ifdef GE_BUILD_DLL
-		#define HAZEL_API __declspec(dllexport)
+		#define ENGINE_API __declspec(dllexport)
 	#else
-		#define HAZEL_API __declspec(dllimport)
+		#define ENGINE_API __declspec(dllimport)
 	#endif
 #else
 	#error Engine only supports Windows!

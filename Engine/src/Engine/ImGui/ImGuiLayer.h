@@ -8,7 +8,7 @@
 
 namespace Engine {
 
-	class HAZEL_API ImGuiLayer : public Layer
+	class ENGINE_API ImGuiLayer : public Layer
 	{
 	public:
 		ImGuiLayer();
