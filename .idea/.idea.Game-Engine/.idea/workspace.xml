@@ -8,31 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19e66554-d480-4a11-a2b3-9a88ea08ddb9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Engine/src/Engine/Input.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/src/Engine/KeyCodes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/src/Engine/MouseButtonCodes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/src/Platform/Windows/WindowsInput.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/src/Platform/Windows/WindowsInput.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/vendor/glm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game-Engine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game-Engine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/Engine.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Engine.vcxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/Engine.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Engine.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/src/Engine/Application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/Application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/Application.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/Application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/Core.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/Core.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/EntryPoint.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/EntryPoint.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/Events/ApplicationEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/Events/ApplicationEvent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/Events/Event.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/Events/Event.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/Events/KeyEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/Events/KeyEvent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/Events/MouseEvent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/Events/MouseEvent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/ImGui/ImGuiLayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/ImGui/ImGuiLayer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/Layer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/Layer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/LayerStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/LayerStack.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/Log.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/Log.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/Log.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Engine/Window.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Engine/Window.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Platform/Windows/WindowsWindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Platform/Windows/WindowsWindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Platform/Windows/WindowsWindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Platform/Windows/WindowsWindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/GLFW.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/GLFW.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/Lib-link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/Lib-link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/Lib-link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/Lib-link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/Lib.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/GLFW.tlog/Lib.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/context.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/context.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/egl_context.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/egl_context.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/init.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/init.obj" afterDir="false" />
@@ -50,33 +37,51 @@
       <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/window.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin-int/Debug-windows-x86_64/GLFW/window.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin/Debug-windows-x86_64/GLFW/GLFW.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin/Debug-windows-x86_64/GLFW/GLFW.lib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/GLFW/bin/Debug-windows-x86_64/GLFW/GLFW.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/GLFW/bin/Debug-windows-x86_64/GLFW/GLFW.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/Glad.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/Glad.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/Lib-link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/Lib-link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/Lib-link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/Lib-link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/Lib.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/Glad.tlog/Lib.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/glad.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/Glad/bin-int/Debug-windows-x86_64/Glad/glad.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/Glad/bin/Debug-windows-x86_64/Glad/Glad.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/Glad/bin/Debug-windows-x86_64/Glad/Glad.lib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/Glad/bin/Debug-windows-x86_64/Glad/Glad.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/Glad/bin/Debug-windows-x86_64/Glad/Glad.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/ImGui.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/ImGui.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/Lib-link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/Lib-link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/Lib-link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/Lib-link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/Lib.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/ImGui.tlog/Lib.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/imgui.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/imgui.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/imgui_demo.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/imgui_demo.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/imgui_draw.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/imgui_draw.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/imgui_widgets.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin-int/Debug-windows-x86_64/ImGui/imgui_widgets.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin/Debug-windows-x86_64/ImGui/ImGui.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin/Debug-windows-x86_64/ImGui/ImGui.lib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engine/vendor/imgui/bin/Debug-windows-x86_64/ImGui/ImGui.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/vendor/imgui/bin/Debug-windows-x86_64/ImGui/ImGui.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/SandboxApp.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Application.obj" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Application.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.dll.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.dll.recipe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/Cl.items.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/Engine.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/Engine.lastbuildstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/link.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/link.secondary.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Engine.tlog/link.write.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Log.obj" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/Log.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/vc143.idb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Engine/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.exe.recipe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/Sandbox.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/Sandbox.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/link.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/Sandbox.tlog/link.write.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/SandboxApp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/SandboxApp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/vc143.idb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin-int/Debug-windows-x86_64/Sandbox/vc143.pdb" afterDir="false" />
@@ -87,6 +92,7 @@
       <change beforePath="$PROJECT_DIR$/bin/Debug-windows-x86_64/Sandbox/Engine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug-windows-x86_64/Sandbox/Engine.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug-windows-x86_64/Sandbox/Sandbox.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug-windows-x86_64/Sandbox/Sandbox.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug-windows-x86_64/Sandbox/Sandbox.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug-windows-x86_64/Sandbox/Sandbox.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/premake5.lua" beforeDir="false" afterPath="$PROJECT_DIR$/premake5.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,10 +102,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ia8rHh8tyk62gewB6PSoyZ2rDw" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -113,19 +122,21 @@
     "C++ Project.Sandbox.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\18560\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\18560\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\18560\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\Administrator\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\Administrator\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -135,7 +146,6 @@
         <option name="CONFIGURATION" value="Dist" />
         <option name="PLATFORM" value="x64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Sandbox/Sandbox.vcxproj" />
-        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -146,7 +156,6 @@
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Sandbox/Sandbox.vcxproj" />
-        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -157,7 +166,6 @@
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Sandbox/Sandbox.vcxproj" />
-        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -179,6 +187,10 @@
       <option name="presentableId" value="Default" />
       <updated>1719717525340</updated>
       <workItem from="1719717527222" duration="6261000" />
+      <workItem from="1722515963694" duration="207000" />
+      <workItem from="1722516178560" duration="157000" />
+      <workItem from="1722516349234" duration="35000" />
+      <workItem from="1722602340910" duration="7073000" />
     </task>
     <servers />
   </component>

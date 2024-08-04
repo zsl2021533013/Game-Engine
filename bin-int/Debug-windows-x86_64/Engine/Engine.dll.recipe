@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Dev\Game-Engine\bin\Debug-windows-x86_64\Engine\Engine.dll</FullPath>
+      <FullPath>D:\Dev\Unity Hub\Project\Game-Engine\bin\Debug-windows-x86_64\Engine\Engine.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
